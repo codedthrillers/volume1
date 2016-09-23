@@ -30,7 +30,7 @@ So this happend:
 
 ```cs
 static class ModelBuilderExtender {
-    public static T GetExternalData<T>(this IBuilder provider){
+    public static T GetExternalData<T>(this IBuilder builder){
         // instantiate the appropriate service by the type of T
         return externalData;
     }
@@ -77,9 +77,9 @@ class ModelBuilder: IBuilder {
 - But the extension method was happier than ever, because now, finally, it could do it's work.
 ```cs
 static class ModelBuilderExtender {
-    public static T GetExternalData<T>(this IBuilder provider){
+    public static T GetExternalData<T>(this IBuilder builder){
         // instantiate the appropriate service by the type of T
-        var someResult = provider.DoSomeInternalWork();
+        var someResult = builder.DoSomeInternalWork();
         // transform someResult to externalData
         return externalData;
     }
