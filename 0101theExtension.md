@@ -1,4 +1,4 @@
-## The extension
+# The extension 
 
 Somewhere, in a secret underground laboratory, models were build and persisted to storage devices.
 
@@ -49,7 +49,7 @@ class ModelBuilder: IBuilder {
 }
 ```
 
-Because the new and shiny extension method was generic, there were cases when it needed to do logic dependent of the type T, and who else knew better how to deal with T than the ModelBuilder itself. 
+Because the new and shiny extension method was generic, there were cases when it needed to do logic dependent of the type T, and who else knew better how to deal with T than the ModelBuilder itself? 
 
 So, the following things happened:
 
@@ -86,13 +86,13 @@ static class ModelBuilderExtender {
 }
 ```
 
-Of course, all the other builders had some more work to do, so they implemented the newly created interface. The ones that did not need it, did what they new best, they threw exceptions to express their disgust.
+Of course, all the other builders had some more work to do, so they implemented the newly created interface. The ones that did not need it, did what they knew best, they threw exceptions to express their disgust.
 
 Things worked for a while, everyone delegated the wrong things to the wrong entities, but, hey, that's like real life, right? 
 
 Until one day...
 
-It was a monday morning, and the coffee was fresh. The clouds cleared the sky and the sun was shining, heating and melting evryones brains.
+It was a monday morning, and the coffee was fresh. The clouds cleared the sky and the sun was shining, heating and melting everyone's brains.
 
 Someone, flying around in it's own personal pane, looked at all those sad builders, and decided to give a helping hand by extracting a base class for them. 
 
@@ -111,8 +111,11 @@ class ModelBuilder: BaseModelBuilder {
 
 And still, the extension method was happy, and the bulders, were, in their way happy, or, at least, accepted the world they lived in and got on with their lives, increasing their debts and not looking back.
 
-Later that week,there was a ModelBuilder revolution, but it was supressed before it could even start properly. There was also an interface revolution, but nobody remembers what the outcome was.
+Later that week, there was a ModelBuilder revolution, but it was supressed before it could even start properly. There was also an interface revolution, but nobody remembers what the outcome was.
 
 So things kept happeing. Extension methods multiplied and got more and more powerfull, concuring and owning interfaces, and dictating things around. The pattern was simple enough to be understood by most people, so they happily applied it. Why? 
 
-Becaue models got build, and that is what matters, right?
+Because models got build, and that is what mattered, right?
+
+
+
