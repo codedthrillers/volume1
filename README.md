@@ -6,4 +6,5 @@ Short, code driven, stories about how some pieces of code ended up in production
 
 # Volume 1
 
-[The extension](0101theExtension.md)
+[The Extension](0101theExtension.md)
+[The Fluid Experiment](0102theFluidExperiment.md)
