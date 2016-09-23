@@ -1,4 +1,4 @@
-# The extension 
+# The Extension 
 
 Somewhere, in a secret underground laboratory, models were build and persisted to storage devices.
 
