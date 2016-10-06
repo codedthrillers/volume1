@@ -1,6 +1,6 @@
 # The Fluid Experiment
 
-There was a time, when everything was solid. And then, there was a time, when everything was fluid. When these times passed, a new era came, when all things got vaporous, but we are not concerned with that.
+There was a time when everything was solid. And then, there was a time when everything was fluid. When these times passed, a new era came, when all things got vaporous, but we are not concerned with that.
 
 This story takes place in the transition years, around the time `IfValid` was born.
 
