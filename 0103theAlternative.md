@@ -87,9 +87,9 @@ if (!isHandeled && newCondition2) {
 }
 ```
 
-Sometime, smeone, somehow, figured out that, in order to be absolutelty sure that no bug can enter the code, could use an `else` statement. But, as any coution developer that does not trust unit tests written by a fellow collegue, it simply added new code, instead of applying refactoring. 
+Sometime, smeone, somehow, figured out that, in order to be absolutelty sure that no bug can enter the code, could use an `else` statement. But, as any coution developer that does not trust unit tests written by a fellow collegue, it simply added new code, instead of applying refactoring. The developers added this to all the if statements in the code. (as always, for consistency reasons). 
 
-The dragon roared, and roared, and roared, but nobody heard it.
+The dragon roared, and roared, and roared: 
 
 ```cs
 bool isHandeled = false;
@@ -107,10 +107,9 @@ else if (!isHandeled && newCondition2) {
     isHandeled = true;
 }
 ```
+... and when finally someone heard it, and got scared.
 
-Of course, the developer added this to all the if statements in the code. (as always, for consistency reasons).
-
-Following his scepticism, he made sure all conditions were properly written, so, when a value got tested for equality, it was tested for it's inequality also. With the AI comming to take over the planet, you can never be to cautious.
+He rushed to the keyboard,  made sure all conditions were properly written. Each and every condition had to be perfect by now, and, just to be extra careful, when a value got tested for equality, it was tested for it's inequality also. With the AI rising from the ground, and the dragon in the sky, you can never be to cautious.
 
 And the dragon blew fire:
 
@@ -144,4 +143,4 @@ else if (!isHandeled) {
 ```
 And everything burned.
 
-*Now, if only `else` was powerful enough not to need that `isHandeled`,* the developer thought, *but, who can know that for sure?*
+*Now, if only `else` was powerful enough not to need that `isHandeled`,* the developer thought, *but, who could knew that for sure?*
