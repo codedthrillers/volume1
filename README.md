@@ -4,7 +4,7 @@ Short, code driven, stories about how some pieces of code ended up in production
 
 > Note: This are real pieces of code. Of course, some of the names were changed and business secrets were hidden. But you'll get the picture.
 
-# Volume 1
+## Volume 1
 
 - [The Extension](0101theExtension.md)
 
@@ -13,7 +13,7 @@ Short, code driven, stories about how some pieces of code ended up in production
 - [The Alternative](0103theAlternative.md)
 
 
-# FAQ
+## FAQ
 
 **1. I never wrote code like this. Who did?**
 
