@@ -1,5 +1,5 @@
 # The Alternative
-*(or how to write boolet proof code when no bullets are flying around)*
+*(or how to write bullet-proof code when no bullets are flying around)*
 
 There was an `if` and it was evaluating it's condition.
 
