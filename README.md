@@ -28,3 +28,7 @@ Short, code driven, stories about how some pieces of code ended up in production
   - Work on multiple codebases at once. Try multitasking as much as possible.
   - Don't test your code. If it compiles it's good to go.
   - If all the above fail, pretend you are writing code on an old typewriter. You never go back, rewerite/rename/refactor anything.
+
+**3. Why should I read this?***
+
+  You should not.
