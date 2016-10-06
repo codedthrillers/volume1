@@ -64,9 +64,9 @@ if (!isHandeled && newCondition2) {
 }
 ```
 
-One day, the conditions needed to be reordered and, as the pattern needed to be easily reused, the `isHandeled` check got added to every condition. This made copy and pasting much easyer for the future. And this is what mattered.
+One day, the conditions needed to be reordered so the `isHandeled` check got added to every condition (even the first). This made copy and pasting much easyer for the future. And this is what mattered.
 
-The dragon flew into the night, and roamed silently above the city:
+The dragon flew into the night and roamed silently above the city:
 
 ```cs
 bool isHandeled = false;
@@ -110,7 +110,7 @@ else if (!isHandeled && newCondition2) {
 
 ... and finally someone heard it, and got scared.
 
-He rushed to the keyboard, made sure all conditions were properly written. Each and every condition had to be perfect by now, and, just to be extra careful, when a value got tested for equality, it was tested for it's inequality also. With the AI rising from the ground and trying to take over the world, and the dragon circling the skies, you can never be to cautious.
+He rushed to the keyboard, made sure all conditions were properly written. Each and every condition had to be perfect by now, and, just to be extra careful, when a value got tested for equality, it was tested for it's inequality also. With the AI rising from the ground, trying to take over the world, and a dragon circling the skies, you can never be to cautious.
 
 And the dragon blew fire:
 
@@ -145,4 +145,4 @@ else if (!isHandeled) {
 
 And everything burned.
 
-*Now, if only `else` was powerful enough not to need that `isHandeled`,* the developer thought, *but, who could knew that for sure?*
+*Now, if only `else` was powerful enough not to need that `isHandeled`,* the developer thought, *but, who knew dragons feast with boolean variables?*
