@@ -1,7 +1,7 @@
 # The Alternative
 *(or how to write boolet proof code when no bullets are flying around)*
 
-There was an `if` and it evaluating it's condition.
+There was an `if` and it was evaluating it's condition.
 
 ```cs
 if (condition){
