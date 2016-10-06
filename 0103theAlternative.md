@@ -41,7 +41,7 @@ if (!isHandeled && newCondition){
 }
 ```
 
-Everything was fine. That ment, that the allready proven working pattern could be resused by others.
+Everything was fine. The allready proven working pattern could be now used by others.
 
 The dragon was given wings:
 
@@ -66,7 +66,7 @@ if (!isHandeled && newCondition2) {
 
 One day, the conditions needed to be reordered and, as the pattern needed to be easily reused, the `isHandeled` check got added to every condition. This made copy and pasting much easyer for the future. And this is what mattered.
 
-The dragon flew into the night, and started roaming silently above the city, ready to strike:
+The dragon flew into the night, and roamed silently above the city:
 
 ```cs
 bool isHandeled = false;
@@ -87,7 +87,7 @@ if (!isHandeled && newCondition2) {
 }
 ```
 
-Sometime, smeone, somehow, figured out that, in order to be absolutelty sure that no bug can enter the code, could use an `else` statement. But, as any coution developer that does not trust unit tests written by a fellow collegue, it simply added new code, instead of applying refactoring. The developers added this to all the if statements in the code. (as always, for consistency reasons). 
+Sometime, someone, somehow, figured out that, in order to be absolutelty sure that no bug can enter the code, could use an `else` statement. But, as any coution developer that does not trust unit tests written by a fellow collegue, it simply added new code, and wrote it's own tests. He then added this to all other `if` statements. (Why? for consistency reasons, of course). 
 
 The dragon roared, and roared, and roared: 
 
@@ -107,9 +107,10 @@ else if (!isHandeled && newCondition2) {
     isHandeled = true;
 }
 ```
-... and when finally someone heard it, and got scared.
 
-He rushed to the keyboard,  made sure all conditions were properly written. Each and every condition had to be perfect by now, and, just to be extra careful, when a value got tested for equality, it was tested for it's inequality also. With the AI rising from the ground, and the dragon in the sky, you can never be to cautious.
+... and finally someone heard it, and got scared.
+
+He rushed to the keyboard, made sure all conditions were properly written. Each and every condition had to be perfect by now, and, just to be extra careful, when a value got tested for equality, it was tested for it's inequality also. With the AI rising from the ground and trying to take over the world, and the dragon circling the skies, you can never be to cautious.
 
 And the dragon blew fire:
 
@@ -141,6 +142,7 @@ else if (!isHandeled) {
     isHandeled = true;
 }
 ```
+
 And everything burned.
 
 *Now, if only `else` was powerful enough not to need that `isHandeled`,* the developer thought, *but, who could knew that for sure?*
