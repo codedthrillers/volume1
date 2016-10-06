@@ -3,6 +3,7 @@
 Somewhere, in a secret underground laboratory, models were build and persisted to storage devices.
 
 There, the interface was developed. It had one method, but that's all it needed. It's codename was IBuilder, and it was internal.
+
 ```cs
 interface IBuilder {
     TheModel BuildModel();
