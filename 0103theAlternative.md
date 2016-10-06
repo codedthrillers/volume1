@@ -41,7 +41,7 @@ if (!isHandeled && newCondition){
 }
 ```
 
-Everything was fine, until two new conditions arose. That ment, that the allready proven working pattern could be resused. So, it became:
+Everything was fine. That ment, that the allready proven working pattern could be resused by others:
 
 ```cs
 bool isHandeled = false;
@@ -83,7 +83,7 @@ if (!isHandeled && newCondition2) {
 }
 ```
 
-One day, someone, somehow, figured out that, in order to be absolutelty sure that no bug can enter the code, could use an `else`. But, as any coution developer that does not trust unit tests written by a fellow collegue, it simply enhanced the code, instead of refactoring it. 
+Sometime, smeone, somehow, figured out that, in order to be absolutelty sure that no bug can enter the code, could use an `else` statement. But, as any coution developer that does not trust unit tests written by a fellow collegue, it simply added new code, instead of applying refactoring. 
 
 ```cs
 bool isHandeled = false;
@@ -102,9 +102,9 @@ else if (!isHandeled && newCondition2) {
 }
 ```
 
-Being happy with his work, the developer added this to all the if statements in the code.
+Of course, the developer added this to all the if statements in the code. (as always, for consistency reasons).
 
-Following his scepticism, he made sure all conditions were properly written, so, when a value got tested for equality, it was tested for it's inequality also. With the AI comming to take over the planet, you can never be to caution.
+Following his scepticism, he made sure all conditions were properly written, so, when a value got tested for equality, it was tested for it's inequality also. With the AI comming to take over the planet, you can never be to cautious.
 
 ```cs
 bool isHandeled = false;
@@ -122,11 +122,11 @@ else if (!isHandeled && newCondition2) {
     isHandeled = true;
 }
 else if (!isHandeled && someVariable == someValue) {
-    // do specific work
+    // do specific work in case someVarialbe has the exact someValue value
     isHandeled = true;
 }
 else if (!isHandeled && someVariable != someValue) {
-    // do work in your own pace
+    // do work in your own pace, but only after you made sure you are doing it right
     isHandeled = true;
 }
 else if (!isHandeled) {
