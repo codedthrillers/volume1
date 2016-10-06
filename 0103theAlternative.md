@@ -11,7 +11,7 @@ if (condition){
 
 And somebody wanted to do something else, if the condition was not satisfied. So, he needed a way of knowing if the `if` block was executed or not.
 
-And, as it was deep in the night (the time monsters appear), this was tiny dragon was born:
+And, as it was deep in the night (the time monsters appear), this tiny dragon was born:
 
 ```cs
 bool isHandeled = false;
