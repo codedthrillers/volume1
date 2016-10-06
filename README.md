@@ -21,7 +21,7 @@ Short, code driven, stories about how some pieces of code ended up in production
 
   If you think you never wrote code like this, well, thing again. You did. We all did.
 
-**2. I can't admit I've written this kind of code, but I want to try writting something similar. How can I do it?**
+**2. I can't admit I've written this kind of code, but I want to try writing something similar. How can I do it?**
 
   Here is a quick guide for you:
 
