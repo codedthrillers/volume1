@@ -1,7 +1,7 @@
 # The Alternative
-*(or how to write bullet-proof code when no bullets are flying around)*
+*(or how to write bulletproof code when no bullets are flying around)*
 
-There was an `if` and it was evaluating it's condition.
+There was an `if` and it was evaluating its condition.
 
 ```cs
 if (condition){
@@ -26,7 +26,7 @@ if (!isHandeled){
 }
 ```
 
-Unit tests were written, and the behaviour was as expected. The problem was with the requirements. They grew. (and so did the baby dragon). 
+Unit tests were written, and the behavior was as expected. The problem was with the requirements. They grew. (and so did the baby dragon)
 
 ```cs
 bool isHandeled = false;
@@ -41,7 +41,7 @@ if (!isHandeled && newCondition){
 }
 ```
 
-Everything was fine. The allready proven working pattern could be now used by others.
+Everything was fine. The already proven working pattern could be now used by others.
 
 The dragon was given wings:
 
@@ -64,7 +64,7 @@ if (!isHandeled && newCondition2) {
 }
 ```
 
-One day, the conditions needed to be reordered so the `isHandeled` check got added to every condition (even the first). This made copy and pasting much easyer for the future. And this is what mattered.
+One day, the conditions needed to be reordered so the `isHandeled` check got added to every condition (even the first). This made copy and pasting much easier for the future. And this is what mattered.
 
 The dragon flew into the night and roamed silently above the city:
 
@@ -87,7 +87,7 @@ if (!isHandeled && newCondition2) {
 }
 ```
 
-Sometime, someone, somehow, figured out that, in order to be absolutelty sure that no bug can enter the code, could use an `else` statement. But, as any coution developer that does not trust unit tests written by a fellow collegue, it simply added new code, and wrote it's own tests. He then added this to all other `if` statements. (Why? for consistency reasons, of course). 
+Sometime, someone, somehow, figured out that, in order to be absolutely sure that no bug can enter the code, could use an `else` statement. But, as any coution developer that does not trust unit tests written by a fellow colleague, it simply added new code, and wrote its own tests. He then added this to all other `if` statements. (Why? For consistency reasons, of course). 
 
 The dragon roared, and roared, and roared: 
 
@@ -110,7 +110,7 @@ else if (!isHandeled && newCondition2) {
 
 ... and finally someone heard it, and got scared.
 
-He rushed to the keyboard, made sure all conditions were properly written. Each and every condition had to be perfect by now, and, just to be extra careful, when a value got tested for equality, it was tested for it's inequality also. With the AI rising from the ground, trying to take over the world, and a dragon circling the skies, you can never be to cautious.
+He rushed to the keyboard, made sure all conditions were properly written. Each and every condition had to be perfect by now, and, just to be extra careful, when a value got tested for equality, it was tested for inequality also. With the AI rising from the ground, trying to take over the world, and a dragon circling the skies, you can never be too cautious.
 
 And the dragon blew fire:
 
